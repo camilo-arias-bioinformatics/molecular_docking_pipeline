@@ -12,7 +12,7 @@ vina-docking-pipeline/
 
 scripts/
     prepare_protein.sh
-    prepare_configurations.sh
+    configure_grid_box.sh
     prepare_ligand_for_compound_library_search.sh
     prepare_compound_library_for_docking.sh
     run_virtual screening.sh
@@ -53,7 +53,7 @@ The docking process follows these steps:
 Run the scripts in the following order:
 
 bash scripts/prepare_protein.sh
-bash scripts/prepare_configurations.sh
+bash scripts/configure_grid_box.sh
 bash scripts/prepare_ligand_for_compound_library_search.sh
 bash scripts/prepare_compound_library_for_docking.sh
 bash scripts/run_virtual_screening.sh
