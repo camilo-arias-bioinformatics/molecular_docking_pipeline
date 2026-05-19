@@ -1,0 +1,10 @@
+# chimera
+
+select solvent
+select ::name="HOH"
+
+slect :GOL,PEG,EDO
+
+select ions
+
+select :NAD,FAD,HEM,ATP,SAM,COA
